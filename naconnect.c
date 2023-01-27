@@ -802,7 +802,7 @@ loop:
   else
   {
     wattron(help_window, COLOR_PAIR(6));
-    mvwprintw(help_window, 0, 1, "'q'uit, ARROWS-selection, TAB-focus, 'r'efreshe, 'c'onnect, 'd'isconnect");
+    mvwprintw(help_window, 0, 1, "'q'uit, ARROWS-selection, TAB-focus, 'r'efresh, 'c'onnect, 'd'isconnect");
     wattroff(help_window, COLOR_PAIR(6));
   }
 
